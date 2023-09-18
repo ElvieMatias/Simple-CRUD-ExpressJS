@@ -44,7 +44,7 @@ app.use("/b12/orders", orderRoutes);
 app.use("/b12/carts", cartRoutes);
 
 // [SECTION] Database Connection
-mongoose.connect("mongodb+srv://matiaselve4991:admin123@course-booking.rtlzkfz.mongodb.net/E-commerceAPI?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv:/******DB Connection HERE******/E-commerceAPI?retryWrites=true&w=majority", {
 
 	useNewUrlParser: true,
 	useUnifiedTopology: true
